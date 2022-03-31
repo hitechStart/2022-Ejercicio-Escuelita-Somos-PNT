@@ -64,7 +64,8 @@ public class Producto implements Comparable<Producto> {
     @Override
     public String toString() {
         //Formato de salida: Nombre: Coca-Cola Zero /// Litros: 1.5 /// Precio: $20
-        return "Nombre: " + nombre + " /// Litros: " + litros + " /// Precio: $" + precio;
+        return "Nombre: " + nombre + " /// Litros: " + litros + 
+                " /// Precio: $" + precio;
     }
 
     @Override

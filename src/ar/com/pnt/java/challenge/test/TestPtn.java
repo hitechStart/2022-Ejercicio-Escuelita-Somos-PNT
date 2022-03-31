@@ -24,7 +24,7 @@ public class TestPtn {
             servicio.obtenerProductoCaroYBarato(productos);
             
         } catch (RuntimeException e) { 
-            System.out.println("Error durante la ejecucion.");      
+            System.out.println("Error durante la ejecucion.");
         } finally {
             System.exit(0);
         }

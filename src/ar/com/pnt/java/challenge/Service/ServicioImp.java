@@ -67,7 +67,8 @@ public class ServicioImp implements IServicio {
                 try {
                     throw new IllegalArgumentException ();
                 } catch (IllegalArgumentException  exception) {
-                    System.out.println(exception + "\nError. El nombre de un producto no esta bien escrito. Revise");
+                    System.out.println(exception 
+                            + "\nError. El nombre de un producto no esta bien escrito. Revise");
                     System.exit(0);
                 }
             }
@@ -83,8 +84,7 @@ public class ServicioImp implements IServicio {
     }
 
     public void ordenarProductosPorPrecio(ArrayList<Producto> productos) {
-        Comparator<Producto> c = (s1, s2) -> s1.getPrecio().compareTo(s2.getPrecio());
-        productos.sort(c);
+         productos.sort((s1, s2) -> s1.getPrecio().compareTo(s2.getPrecio()));
     }
 
     public void obtenerProductoCaroYBarato(ArrayList<Producto> productos) {

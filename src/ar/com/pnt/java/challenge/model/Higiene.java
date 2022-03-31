@@ -1,5 +1,7 @@
 package ar.com.pnt.java.challenge.model;
 
+import java.text.DecimalFormat;
+
 /**
  *@author Maximiliano Di Ludovico
  * @version 1.0.0
