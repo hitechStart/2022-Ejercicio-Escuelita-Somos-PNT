@@ -4,7 +4,7 @@ import ar.com.pnt.java.challenge.model.Producto;
 import java.util.ArrayList;
 /**
  *@author Maximiliano Di Ludovico
- * @version 1.0.0
+ * @version 1.0.1
  * IServicio:Interfaz que define los metodos abstractos que presta la
  * capa de servicios.
  */

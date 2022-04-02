@@ -5,7 +5,7 @@ import ar.com.pnt.java.challenge.model.Producto;
 import java.util.ArrayList;
 /**
  *@author Maximiliano Di Ludovico
- * @version 1.0.0
+ * @version 1.0.1
  * productos: Objeto que contiene una lista de distintos productos
  * Metodo principal que procesa el codigo realizado en Java 8.
  * 

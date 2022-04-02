@@ -2,7 +2,7 @@ package ar.com.pnt.java.challenge.model;
 
 /**
  * @author Maximiliano Di Ludovico
- * @version 1.0.0 Producto: Clase padre o principal define las propiedades de
+ * @version 1.0.1 Producto: Clase padre o principal define las propiedades de
  * los distintos pruductos
  *
  * Esta clase extiende de la interface Comparable

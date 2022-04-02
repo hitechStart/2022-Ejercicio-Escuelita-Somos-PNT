@@ -2,7 +2,7 @@ package ar.com.pnt.java.challenge.model;
 
 /**
  *@author Maximiliano Di Ludovico
- * @version 1.0.0
+ * @version 1.0.1
  * Bebida:Subclase o categoria de elementos de limpieza de u producto.
  *Producto: Clase padre o principal define las propiedades de los distintos pruductos
  */ 
